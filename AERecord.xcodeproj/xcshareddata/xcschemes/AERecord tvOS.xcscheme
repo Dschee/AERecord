@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "829CA6601C458E1C000823C5"
-               BuildableName = "AERecord tvOS.framework"
+               BuildableName = "AERecord.framework"
                BlueprintName = "AERecord tvOS"
                ReferencedContainer = "container:AERecord.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "829CA6601C458E1C000823C5"
-            BuildableName = "AERecord tvOS.framework"
+            BuildableName = "AERecord.framework"
             BlueprintName = "AERecord tvOS"
             ReferencedContainer = "container:AERecord.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "829CA6601C458E1C000823C5"
-            BuildableName = "AERecord tvOS.framework"
+            BuildableName = "AERecord.framework"
             BlueprintName = "AERecord tvOS"
             ReferencedContainer = "container:AERecord.xcodeproj">
          </BuildableReference>
