@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		829CA6761C458E36000823C5 /* AERecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975B2A1A098A4800AA3499 /* AERecord.swift */; };
+		829CA6771C458E37000823C5 /* AERecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975B2A1A098A4800AA3499 /* AERecord.swift */; };
+		829CA6781C458E37000823C5 /* AERecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975B2A1A098A4800AA3499 /* AERecord.swift */; };
 		8B03862A1B4482B1005950F5 /* AERecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975B2A1A098A4800AA3499 /* AERecord.swift */; };
 		8B03862F1B448555005950F5 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B03862E1B448555005950F5 /* Species.swift */; };
 		8B0386311B448556005950F5 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0386301B448556005950F5 /* Breed.swift */; };
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		829CA6541C458E0B000823C5 /* AERecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AERecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829CA6581C458E0B000823C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AERecord/Info.plist; sourceTree = SOURCE_ROOT; };
+		829CA6611C458E1C000823C5 /* AERecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AERecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829CA66E1C458E29000823C5 /* AERecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AERecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B03862E1B448555005950F5 /* Species.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 		8B0386301B448556005950F5 /* Breed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 		8B0386321B448556005950F5 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -45,7 +52,7 @@
 		8B8FD1D21A0BCC3C009FAE44 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		8B8FD1D41A0BE171009FAE44 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8B8FD1D51A0BE171009FAE44 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8B975B2A1A098A4800AA3499 /* AERecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AERecord.swift; sourceTree = "<group>"; };
+		8B975B2A1A098A4800AA3499 /* AERecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AERecord.swift; path = AERecord/AERecord.swift; sourceTree = SOURCE_ROOT; };
 		8B975B2C1A098FAF00AA3499 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		8BB007611B6AE54C00471F81 /* AERecordTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AERecordTest.xcdatamodel; sourceTree = "<group>"; };
 		8BC8954B1A07930500778DB0 /* AERecordExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AERecordExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +71,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		829CA6501C458E0B000823C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA65D1C458E1C000823C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA66A1C458E29000823C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BC895481A07930500778DB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,6 +137,9 @@
 			children = (
 				8BC8954B1A07930500778DB0 /* AERecordExample.app */,
 				8BC895651A07930500778DB0 /* AERecordTests.xctest */,
+				829CA6541C458E0B000823C5 /* AERecord.framework */,
+				829CA6611C458E1C000823C5 /* AERecord.framework */,
+				829CA66E1C458E29000823C5 /* AERecord.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,13 +194,92 @@
 			isa = PBXGroup;
 			children = (
 				8B975B2A1A098A4800AA3499 /* AERecord.swift */,
+				829CA6581C458E0B000823C5 /* Info.plist */,
 			);
 			path = AERecord;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		829CA6511C458E0B000823C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA65E1C458E1C000823C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA66B1C458E29000823C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		829CA6531C458E0B000823C5 /* AERecord iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829CA65B1C458E0B000823C5 /* Build configuration list for PBXNativeTarget "AERecord iOS" */;
+			buildPhases = (
+				829CA64F1C458E0B000823C5 /* Sources */,
+				829CA6501C458E0B000823C5 /* Frameworks */,
+				829CA6511C458E0B000823C5 /* Headers */,
+				829CA6521C458E0B000823C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AERecord iOS";
+			productName = "AERecord iOS";
+			productReference = 829CA6541C458E0B000823C5 /* AERecord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		829CA6601C458E1C000823C5 /* AERecord tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829CA6661C458E1C000823C5 /* Build configuration list for PBXNativeTarget "AERecord tvOS" */;
+			buildPhases = (
+				829CA65C1C458E1C000823C5 /* Sources */,
+				829CA65D1C458E1C000823C5 /* Frameworks */,
+				829CA65E1C458E1C000823C5 /* Headers */,
+				829CA65F1C458E1C000823C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AERecord tvOS";
+			productName = "AERecord tvOS";
+			productReference = 829CA6611C458E1C000823C5 /* AERecord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		829CA66D1C458E29000823C5 /* AERecord OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829CA6731C458E29000823C5 /* Build configuration list for PBXNativeTarget "AERecord OSX" */;
+			buildPhases = (
+				829CA6691C458E29000823C5 /* Sources */,
+				829CA66A1C458E29000823C5 /* Frameworks */,
+				829CA66B1C458E29000823C5 /* Headers */,
+				829CA66C1C458E29000823C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AERecord OSX";
+			productName = "AERecord OSX";
+			productReference = 829CA66E1C458E29000823C5 /* AERecord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8BC8954A1A07930500778DB0 /* AERecordExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC8956F1A07930500778DB0 /* Build configuration list for PBXNativeTarget "AERecordExample" */;
@@ -215,6 +325,15 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ae;
 				TargetAttributes = {
+					829CA6531C458E0B000823C5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					829CA6601C458E1C000823C5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					829CA66D1C458E29000823C5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					8BC8954A1A07930500778DB0 = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -239,11 +358,35 @@
 			targets = (
 				8BC8954A1A07930500778DB0 /* AERecordExample */,
 				8BC895641A07930500778DB0 /* AERecordTests */,
+				829CA6531C458E0B000823C5 /* AERecord iOS */,
+				829CA6601C458E1C000823C5 /* AERecord tvOS */,
+				829CA66D1C458E29000823C5 /* AERecord OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		829CA6521C458E0B000823C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA65F1C458E1C000823C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA66C1C458E29000823C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BC895491A07930500778DB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +407,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		829CA64F1C458E0B000823C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829CA6761C458E36000823C5 /* AERecord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA65C1C458E1C000823C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829CA6771C458E37000823C5 /* AERecord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829CA6691C458E29000823C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829CA6781C458E37000823C5 /* AERecord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BC895471A07930500778DB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +489,163 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		829CA6591C458E0B000823C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AERecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = source.open.AERecord;
+				PRODUCT_NAME = AERecord;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829CA65A1C458E0B000823C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AERecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = source.open.AERecord;
+				PRODUCT_NAME = AERecord;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		829CA6671C458E1C000823C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AERecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = source.open.AERecord;
+				PRODUCT_NAME = AERecord;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829CA6681C458E1C000823C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AERecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = source.open.AERecord;
+				PRODUCT_NAME = AERecord;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		829CA6741C458E29000823C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AERecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = source.open.AERecord;
+				PRODUCT_NAME = AERecord;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829CA6751C458E29000823C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AERecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = source.open.AERecord;
+				PRODUCT_NAME = AERecord;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8BC8956D1A07930500778DB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,6 +781,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		829CA65B1C458E0B000823C5 /* Build configuration list for PBXNativeTarget "AERecord iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829CA6591C458E0B000823C5 /* Debug */,
+				829CA65A1C458E0B000823C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		829CA6661C458E1C000823C5 /* Build configuration list for PBXNativeTarget "AERecord tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829CA6671C458E1C000823C5 /* Debug */,
+				829CA6681C458E1C000823C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		829CA6731C458E29000823C5 /* Build configuration list for PBXNativeTarget "AERecord OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829CA6741C458E29000823C5 /* Debug */,
+				829CA6751C458E29000823C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8BC895461A07930500778DB0 /* Build configuration list for PBXProject "AERecord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
