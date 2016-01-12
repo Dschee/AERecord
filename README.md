@@ -299,7 +299,7 @@ class MyTableViewController: CoreDataTableViewController {
 
 	override func viewDidLoad() {
 	    super.viewDidLoad()
-	    
+
 	    refreshData()
 	}
 
@@ -343,6 +343,17 @@ Same as with the tableView.
   pod 'AERecord'
   pod 'AECoreDataUI'
   ```
+
+- Using [Carthage](https://github.com/Carthage/Carthage) (only for AERecord):
+
+	Add the following to your Cartfile for the latest release:
+
+	```Swift
+	github "tadija/AERecord"
+	```
+
+	Then run `carthage update` and drag and drop `AERecord.framework` from the folder `Carthage/Build/<target-os>/` to your project. Now you can `import AERecord` wherever you need it.
+
 
 - Manually:
 
